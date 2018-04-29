@@ -1,18 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Nav from "./components/Nav";
-import Footer from "./components/Footer";
 import Home from "./pages/Home";
+import Header from "./components/Header";
 
 const App = () => (
 
     <Router>
         <div>
-            <Nav />
-
+            <Header/>
+            <Nav /> 
             <Route exact path="/" component={Home} />
-
-            <Footer />
+            
         </div>
     </Router>
 
