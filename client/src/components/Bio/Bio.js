@@ -10,4 +10,4 @@ const Bio = () => (
     </div>
 );
 
-export default Header;
+export default Bio;
