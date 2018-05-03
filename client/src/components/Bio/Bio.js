@@ -5,12 +5,8 @@ const bio = require ("../../bio.json");
 
 const Bio = () => (
     <div>
-        <h1>
-            {headerInfo.bandName}
-        </h1>
-        <ul>
-            <li className="NavItem"> Bio </li>
-        </ul>   
+        <p> {bio.text}</p>
+        <hr> </hr>   
     </div>
 );
 
