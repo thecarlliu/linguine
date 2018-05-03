@@ -1,19 +1,15 @@
 import React from "react"
 import "./News.css"
 
-const shows = require ("../../news.json");
+const news = require ("../../news.json");
 
 const News = () => (
     <div>
-        <h1>
-            {headerInfo.bandName}
-        </h1>
-        <ul>
-            <li className="NavItem"> News </li>
-            <li className="NavItem"> Shows </li>
-            <li className="NavItem"> Bio </li>
-            <li className="NavItem"> Contact </li>
-        </ul>   
+        <h3> {news.name} </h3>
+        <img src={news.image}/>
+        <h4> </h4>
+        <p> </p>
+        <hr> </hr>   
     </div>
 );
 

@@ -8,12 +8,13 @@ const Shows = () => (
         <h1>
             {headerInfo.bandName}
         </h1>
-        <ul>
-            <li className="NavItem"> News </li>
-            <li className="NavItem"> Shows </li>
-            <li className="NavItem"> Bio </li>
-            <li className="NavItem"> Contact </li>
-        </ul>   
+        <div>
+            <h3> {shows.date} </h3>
+            <h3> {shows.venue} </h3>
+            <h3> {shows.location} </h3>
+            <h3> {shows.tickets}</h3>
+            <hr> </hr>   
+        </div>
     </div>
 );
 
