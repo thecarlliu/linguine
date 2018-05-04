@@ -7,7 +7,6 @@ import Shows from "../../components/Shows";
 import  Bio from "../../components/Bio";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
-import Form from "../../components/Form";
 
 const images = require("../../images.json");
 
@@ -18,7 +17,6 @@ const Home = () => (
         <News/>
         <Shows/>
         <Bio/>
-        <Contact/>
         <=Footer/>
     </div>
 );

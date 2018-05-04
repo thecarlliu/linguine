@@ -1,9 +1,51 @@
 [
   {
-    "name": "News",
-    "image": "https://via.placeholder.com/200x200/",
-    "icon": "fi-paperclip",
-    "text": "The latest linguine news here"
-  }
-  
- ]
+    "date": "02/23/2018",
+    "venue": "Bowry Ballrom",
+    "city": "New York City",
+    "state": "NY",
+    "tickets": "www.ticketmaster.com"
+  },
+  {
+    "date": "02/25/2018",
+    "venue": "Red Top",
+    "city": "Philadelphia",
+    "state": "PA",
+    "tickets": "www.ticketmaster.com"
+  },
+    {
+    "date": "02/26/2018",
+    "venue": "Ballroom Y",
+    "city": "Siesta Key",
+    "state": "FL",
+    "tickets": "www.ticketmaster.com"
+  },
+    {
+    "date": "03/03/2018",
+    "venue": "1st Avenue",
+    "city": "Minneapolis",
+    "state": "MN",
+    "tickets": "www.ticketmaster.com"
+  },
+    {
+    "date": "03/10/2018",
+    "venue": "LeVere",
+    "city": "Paris",
+    "state": "France",
+    "tickets": "www.ticketmaster.com"
+  },
+    {
+    "date": "02/23/3028",
+    "venue": "Canal Street",
+    "city": "Amsterdam",
+    "state": "Denmark",
+    "tickets": "www.ticketmaster.com"
+  },
+    {
+    "date": "02/23/3028",
+    "venue": "Bowry Ballrom",
+    "city": "New York City",
+    "state": "New York",
+    "tickets": "www.ticketmaster.com"
+  },
+ ],
