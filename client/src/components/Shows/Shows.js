@@ -18,4 +18,4 @@ const Shows = () => (
     </div>
 );
 
-export default Header;
+export default Shows;

@@ -3,7 +3,7 @@ import "./Nav.css"
 
 const Nav = () => (
 	<div className="header">
-        <h5>Farfalle</h5>
+        <h5>Linguine</h5>
     </div>
 );
 

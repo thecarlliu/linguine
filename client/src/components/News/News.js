@@ -7,10 +7,10 @@ const News = () => (
     <div>
         <h3> {news.name} </h3>
         <img src={news.image}/>
-        <h4> </h4>
-        <p> </p>
+        <h4> {news.icon} </h4>
+        <p> {news.text}</p>
         <hr> </hr>   
     </div>
 );
 
-export default Header;
+export default News;
