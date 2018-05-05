@@ -1,17 +1,13 @@
 import React from "react"
 import "./Footer.css"
 
+const footer = require ("../../footer.json");
+
 const Footer = () => (
-    <footer>
-        <div className="footer">
-            <div className="footer-back-to-top">
-                <a href="#">Back to Top</a>
-            </div>
-            <div className="footer-copyright">
-                Powered by Carbos © 2018
-            </div>
-        </div>
-    </footer>
+     <div>
+        <p> {footer.text}</p>
+        <hr> </hr>   
+    </div>
 );
 
 export default Footer;

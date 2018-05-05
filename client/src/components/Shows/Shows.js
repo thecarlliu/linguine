@@ -4,18 +4,22 @@ import "./Shows.css"
 const shows = require ("../../shows.json");
 
 const Shows = () => (
-    <div>
-        <h1>
-            {headerInfo.bandName}
-        </h1>
-        <div>
-            <h3> {shows.date} </h3>
-            <h3> {shows.venue} </h3>
-            <h3> {shows.location} </h3>
-            <h3> {shows.tickets}</h3>
-            <hr> </hr>   
-        </div>
-    </div>
-);
-
+ <div>
+   <div className="grid-x medium-12">
+       {
+           shows.map((show)=>(
+               <div className="cell medium-2">
+                    <ul>
+                       <li>{show.date}</li>
+                       <li>{show.venue}</li>
+                       <li>{show.city}</li>
+                       <li>{show.state}</li>
+                       <li>{show.tickets}</li>
+                    </ul>
+                </div>                                    
+           ))
+       }
+   </div>
+ </div>
+ )
 export default Shows;
