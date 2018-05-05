@@ -1,7 +1,8 @@
 import React from "react"
 import "./Footer.css"
 
-const Footer = require ("../../src/footer.json");
+const footer = require ("../../footer.json");
+
 const Footer = () => (
      <div>
         <p> {footer.text}</p>

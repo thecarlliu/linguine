@@ -10,19 +10,16 @@ const Shows = () => (
            shows.map((show)=>(
                <div className="cell medium-2">
                     <ul>
-                        {
-                            shows.list.map((show)=>(
-                                <li>{show.date}</li>
-                                <li>{show.venue}</li>
-                                <li>{show.city}</li>
-                                <li>{show.state}</li>
-                                <li>{show.tickets}</li>
-                            ))
-                        }
+                       <li>{show.date}</li>
+                       <li>{show.venue}</li>
+                       <li>{show.city}</li>
+                       <li>{show.state}</li>
+                       <li>{show.tickets}</li>
                     </ul>
                 </div>                                    
            ))
        }
    </div>
  </div>
+ )
 export default Shows;
