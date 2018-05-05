@@ -14,3 +14,26 @@ const News = () => (
 );
 
 export default News;
+
+const News = () => (
+ <div>
+   <div className="grid-x medium-12">
+       {
+           News.map((scoop)=>(
+               <div className="cell medium-2">
+                    <ul>
+                        {
+                            news.list.map((scoop)=>(
+                                <li>{scoop.name}</li>
+                                <li>{scoop.image}</li>
+                                <li>{scoop.item}</li>
+                                <li>{scoop.text}</li>
+                           		 ))
+                        }
+                    </ul>
+                </div>
+               ))                          
+       }
+   </div>
+ </div>
+export default News;

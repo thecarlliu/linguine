@@ -25,45 +25,4 @@ const Shows = () => (
        }
    </div>
  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-createShows: function (shows) {
-    return shows.map(this.createShows);
-  },
-
-  render: function () {
-    return (
-      <div className="container">
-        <div className="row">
-          <div className="col-sm-12 text-center">
-            {this.createShows(shows.date, shows.venue, shows.location, shows.tickets)}
-          </div>
-        </div>
-      </div>
-    );
 export default Shows;
-
- /*/*  <div>
-        <h1>
-            {headerInfo.bandName}
-        </h1>
-        <div>
-            <h3> {shows.date} </h3>
-            <h3> {shows.venue} </h3>
-            <h3> {shows.location} </h3>
-            <h3> {shows.tickets}</h3>
-            <hr> </hr>   
-        </div>
-    </div>
-);*/*/
