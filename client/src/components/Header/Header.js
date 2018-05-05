@@ -1,7 +1,7 @@
 import React from "react"
 import "./Header.css"
 
-const headerInfo = require ("../../../public/headerInfo.json");
+const headerInfo = require ("../../header.json");
 
 const Header = () => (
     <div>
