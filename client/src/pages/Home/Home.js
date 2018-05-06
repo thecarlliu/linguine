@@ -8,7 +8,7 @@ import  Bio from "../../components/Bio";
 import Footer from "../../components/Footer";
 
 const Home = () => (
-    <div className="grid-x medium-12">
+    <div>
         <Header/>
         <Nav/>
         <News/>

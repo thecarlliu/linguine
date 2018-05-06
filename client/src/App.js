@@ -8,10 +8,9 @@ const App = () => (
 
     <Router>
         <div>
-            <Header/>
-            <Nav /> 
-            <Route exact path="/" component={Home} />
-            
+       		<Switch>
+            	<Route exact path="/" component={Home} />
+			</Switch>
         </div>
     </Router>
 

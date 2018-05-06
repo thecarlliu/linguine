@@ -1,0 +1,24 @@
+.showInfo{
+	width:100%;
+}
+
+.showInfo span{
+	text-align: left;
+	padding-left: 125px;
+
+}
+table, th, , tr, td {
+    border: 5px solid black;
+}
+span{
+	text-align: left;
+	padding-left: 125px;
+}
+th{
+	text-align: left;
+	padding-left: 125px;
+}
+td{
+	text-align: left;
+	padding-left: 125px;
+}

@@ -3,13 +3,11 @@ import "./Nav.css"
 
 const Nav = () => (
 	   <div>
-        <ul>
-        	<li className="NavItem"> Header </li>
-            <li className="NavItem"> News </li>
-            <li className="NavItem"> Shows </li>
-            <li className="NavItem"> Bio </li>
-            <li className="NavItem"> Footer </li>
-        </ul>   
+        <div className="navbar">
+       		<a href="#">News</a>
+            <a href="#">Shows</a>
+            <a href="#">Bio</a>
+        </div>   
     </div>
 );
 
