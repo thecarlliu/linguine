@@ -4,9 +4,11 @@ import "./Bio.css"
 const bio = require ("../../bio.json");
 
 const Bio = () => (
-    <div>
-        <p> {bio.text}</p>
-        <hr> </hr>   
+	<div>
+	<h2>Bio</h2>
+    	<div>
+        	<p>{bio.text}</p>
+    	</div>
     </div>
 );
 

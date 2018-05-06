@@ -5,17 +5,27 @@ const shows = require ("../../shows.json");
 
 const Shows = () => (
  <div>
-   <div className="grid-x medium-12">
-       {
+   <div>
+                    <h2> Shows</h2>
+                    <tr>
+                      <th> DATE </th>
+                      <th> VENUE </th>
+                      <th> CITY </th>
+                      <th> STATE </th>
+                      <th> TICKETS </th>
+                    </tr>
+          {
            shows.map((show)=>(
-               <div className="cell medium-2">
-                    <ul>
-                       <li>{show.date}</li>
-                       <li>{show.venue}</li>
-                       <li>{show.city}</li>
-                       <li>{show.state}</li>
-                       <li>{show.tickets}</li>
-                    </ul>
+               <div>
+                    <table className="showInfo">
+                    <tr>
+                       <td>{show.date}</td>
+                       <td>{show.venue}</td>
+                       <td>{show.city}</td>
+                       <td>{show.state}</td>
+                       <td>{show.tickets}</td>
+                    </tr>
+                    </table>
                 </div>                                    
            ))
        }

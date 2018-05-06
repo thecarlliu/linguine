@@ -5,16 +5,16 @@ const news = require ("../../news.json");
 
 const News = () => (
  <div>
-   <div className="grid-x medium-12">
+   <div>
        {
-           News.map((scoop)=>(
+           news.map((scoop)=>(
                <div className="cell medium-2">
-                    <ul>
-                        <li>{scoop.name}</li>
-                        <li>{scoop.image}</li>
-                        <li>{scoop.item}</li>
-                        <li>{scoop.text}</li>
-                    </ul>
+                    <div>
+                        <h2>{scoop.name}</h2>
+                        <div>{scoop.image}</div>
+                        <h4>{scoop.item}</h4>
+                        <p>{scoop.text}</p>
+                    </div>
                 </div>
                ))                         
        }
