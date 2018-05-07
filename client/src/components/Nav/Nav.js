@@ -7,6 +7,7 @@ const Nav = () => (
        		<a href="#">News</a>
             <a href="#">Shows</a>
             <a href="#">Bio</a>
+             <a href="#">Video</a>
         </div>   
     </div>
 );

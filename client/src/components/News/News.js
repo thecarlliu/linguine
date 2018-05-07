@@ -11,8 +11,9 @@ const News = () => (
                <div className="cell medium-2">
                     <div>
                         <h2>{scoop.name}</h2>
-                        <div>{scoop.image}</div>
+                        <img className="newsPic"src={scoop.image}/>
                         <h4>{scoop.item}</h4>
+                        <h3>{scoop.subheader}</h3>
                         <p>{scoop.text}</p>
                     </div>
                 </div>

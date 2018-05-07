@@ -7,25 +7,27 @@ const Shows = () => (
  <div>
    <div>
                     <h2> Shows</h2>
-                    <tr>
-                      <th> DATE </th>
-                      <th> VENUE </th>
-                      <th> CITY </th>
-                      <th> STATE </th>
-                      <th> TICKETS </th>
-                    </tr>
+                        <table className="showInfo">
+                          <tr>
+                              <th> DATE </th>
+                              <th> VENUE </th>
+                              <th> CITY </th>
+                              <th> STATE </th>
+                              <th> TICKETS </th>
+                          </tr>
+                        </table>
           {
-           shows.map((show)=>(
-               <div>
-                    <table className="showInfo">
-                    <tr>
-                       <td>{show.date}</td>
-                       <td>{show.venue}</td>
-                       <td>{show.city}</td>
-                       <td>{show.state}</td>
-                       <td>{show.tickets}</td>
-                    </tr>
-                    </table>
+                    shows.map((show)=>(
+                        <div>
+                            <table className="showInfo">
+                                <tr>
+                                    <td>{show.date}</td>
+                                    <td>{show.venue}</td>
+                                    <td>{show.city}</td>
+                                    <td>{show.state}</td>
+                                    <td>{show.tickets}</td>
+                                </tr>
+                            </table>
                 </div>                                    
            ))
        }
