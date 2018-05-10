@@ -6,6 +6,7 @@ const shows = require ("../../shows.json");
 const Shows = () => (
  <div>
    <div>
+                    <div className="line"><hr></hr></div>
                     <h2> Shows</h2>
                         <table className="showInfo">
                           <tr>
@@ -28,7 +29,7 @@ const Shows = () => (
                                     <td>{show.tickets}</td>
                                 </tr>
                             </table>
-                </div>                                    
+                </div>                                  
            ))
        }
    </div>

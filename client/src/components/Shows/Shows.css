@@ -32,3 +32,9 @@ td{
 h2{
 	color:white;
 }
+.line{
+height: 2px;
+color: red;
+width:  100%;
+padding: 20px;
+}

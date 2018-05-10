@@ -6,6 +6,7 @@ const news = require ("../../news.json");
 const News = () => (
  <div>
    <div>
+        <div className="line"><hr></hr></div>
        {
            news.map((scoop)=>(
                <div className="cell medium-2">
